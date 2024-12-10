@@ -1,0 +1,683 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título de la sección */
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Formulario de búsqueda */
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Contenedor de búsqueda */
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Input de búsqueda */
+.search-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Botón de búsqueda con icono */
+.search-box button {
+    padding: 10px 15px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box button:hover {
+    background-color: #0097a7;
+}
+
+/* Icono del botón de búsqueda */
+.search-box button i {
+    font-size: 18px;
+}
+
+/* Enlace de volver al panel de administración */
+.container a.button {
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container a.button:hover {
+    background-color: #0097a7;
+}
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título de la sección */
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Formulario de búsqueda */
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Contenedor de búsqueda */
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Input de búsqueda */
+.search-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Botón de búsqueda con icono */
+.search-box button {
+    padding: 10px 15px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box button:hover {
+    background-color: #0097a7;
+}
+
+/* Icono del botón de búsqueda */
+.search-box button i {
+    font-size: 18px;
+}
+
+/* Enlace de volver al panel de administración */
+.container a.button {
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container a.button:hover {
+    background-color: #0097a7;
+}
+/* ---------------------------- */
+/* Estilos específicos para login.jsp */
+/* ---------------------------- */
+
+/* Contenedor del login */
+.login-container {
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del login */
+.login-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Formulario del login */
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Input del formulario de login */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Placeholders personalizados */
+.login-container input[type="text"]::placeholder {
+    color: #888;
+}
+
+.login-container input[type="password"]::placeholder {
+    color: #888;
+}
+
+/* Botón del login */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 25px; /* Espacio adicional entre el botón y el enlace de registro */
+}
+
+.login-container button:hover {
+    background-color: #0097a7;
+}
+
+/* Enlace de registro */
+.signup-link {
+    font-size: 14px;
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+/* ---------------------------- */
+/* Estilos específicos para panelDelUsuario.jsp */
+/* ---------------------------- */
+
+/* Contenedor principal del panel */
+.dashboard-container {
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del panel */
+.dashboard-container h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Contenedor de los botones */
+.panel-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Botones del panel */
+.panel-buttons .button {
+    padding: 15px 30px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 45%; /* Para que ocupen la mitad del ancho disponible */
+    text-align: center;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+
+.panel-buttons .button:hover {
+    background-color: #0097a7;
+}
+
+/* ---------------------------- */
+/* Estilos específicos para buscarUsuarios.jsp */
+/* ---------------------------- */
+
+/* Contenedor principal */
+.buscar-usuario-container {
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título centrado */
+.buscar-usuario-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Formulario de búsqueda */
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilo del input de búsqueda */
+.search-box input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Botón de búsqueda con icono */
+.search-box button {
+    padding: 10px 15px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box button:hover {
+    background-color: #0097a7;
+}
+
+/* Botón de volver al panel de administración */
+.buscar-usuario-container a.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buscar-usuario-container a.button:hover {
+    background-color: #0097a7;
+}
+
+/* ---------------------------- */
+/* Estilos específicos para modificarDatos.jsp */
+/* ---------------------------- */
+
+.modificar-container {
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modificar-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo de los inputs */
+.modificar-container input[type="text"],
+.modificar-container input[type="email"],
+.modificar-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Botón de modificar */
+.modificar-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Espacio entre los botones */
+}
+
+.modificar-container button:hover {
+    background-color: #0097a7;
+}
+
+/* Enlace de volver al panel de usuario */
+.modificar-container a.button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.modificar-container a.button:hover {
+    background-color: #0097a7;
+}
+
+/* ---------------------------- */
+/* Estilos específicos para eliminarCuenta.jsp */
+/* ---------------------------- */
+
+/* Contenedor del formulario de eliminar cuenta */
+.delete-account-container {
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del formulario */
+.delete-account-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo del formulario */
+.delete-account-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Inputs del formulario */
+.delete-account-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Botón de eliminar cuenta */
+.delete-account-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;  /* Asegura que el padding se incluya en el ancho */
+}
+
+.delete-account-container button:hover {
+    background-color: #0097a7;
+}
+
+/* Botón de volver al panel de administración */
+.delete-account-container a.button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;        /* Espacio entre los botones */
+    box-sizing: border-box;  /* Asegura que el padding se incluya en el ancho */
+}
+
+.delete-account-container a.button:hover {
+    background-color: #0097a7;
+}
+
+/* ---------------------------- */
+/* Estilos específicos para register.jsp */
+/* ---------------------------- */
+
+/* Contenedor del formulario de registro */
+.register-container {
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del formulario */
+.register-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Formulario del registro */
+.register-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Estilo de los inputs del formulario */
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"],
+.register-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Placeholder dentro de los inputs */
+.register-container input::placeholder {
+    color: #aaa;
+}
+
+/* Botón de registro */
+.register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.register-container button:hover {
+    background-color: #0097a7;
+}
+
+/* Enlace para volver */
+.register-container a.button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.register-container a.button:hover {
+    background-color: #0097a7;
+}

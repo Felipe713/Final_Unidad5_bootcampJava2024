@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <display-name>FinalUnidad5</display-name>
+
+    <servlet>
+        <servlet-name>ConsultaHoroscopoServlet</servlet-name>
+        <servlet-class>com.edutecno.FinalUnidad5.servlets.ConsultaHoroscopoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConsultaHoroscopoServlet</servlet-name>
+        <url-pattern>/consultaHoroscopo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.edutecno.FinalUnidad5.servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.edutecno.FinalUnidad5.servlets.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>ConsultaZodiacoServlet</servlet-name>
+    <servlet-class>com.edutecno.FinalUnidad5.servlets.ConsultaZodiacoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ConsultaZodiacoServlet</servlet-name>
+    <url-pattern>/ConsultaZodiacoServlet</url-pattern>
+</servlet-mapping>
+    <servlet>
+    <servlet-name>BuscarUsuarioServlet</servlet-name>
+    <servlet-class>com.edutecno.FinalUnidad5.servlets.BuscarUsuarioServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>BuscarUsuarioServlet</servlet-name>
+    <url-pattern>/BuscarUsuarioServlet</url-pattern>
+</servlet-mapping>
+    <servlet>
+    <servlet-name>ModificarDatosServlet</servlet-name>
+    <servlet-class>com.edutecno.FinalUnidad5.servlets.ModificarDatosServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ModificarDatosServlet</servlet-name>
+    <url-pattern>/ModificarDatosServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EliminarCuentaServlet</servlet-name>
+    <servlet-class>com.edutecno.FinalUnidad5.servlets.EliminarCuentaServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EliminarCuentaServlet</servlet-name>
+    <url-pattern>/EliminarCuentaServlet</url-pattern>
+</servlet-mapping>
+    
+
+    <!-- Configuración de la página de inicio -->
+    <welcome-file-list>
+    	<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+    
+</web-app>
